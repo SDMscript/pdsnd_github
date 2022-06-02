@@ -1,6 +1,13 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Apr 20 07:31:28 2022
+
+@author: srividya.mohan
+"""
+
 import time
 import pandas as pd
-import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -212,3 +219,4 @@ def main():
 
 if __name__ == "__main__":
 	main()
+
